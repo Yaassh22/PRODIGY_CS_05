@@ -1,0 +1,18 @@
+Packet Sniffer & Protocol Analyzer
+This Python script is designed to capture and analyze network packets at a raw socket level. It dissects Ethernet, IPv4, ICMP, TCP, and UDP packets, providing detailed insights into the structure and content of network traffic. It is ideal for educational purposes and learning about networking protocols.
+
+Features
+Ethernet Frame Analysis: Captures and decodes Ethernet frames, extracting destination/source MAC addresses and protocol type.
+IPv4 Packet Decoding: Analyzes IPv4 packets, including TTL, source, and target IP addresses.
+Protocol Analysis: Supports analysis of various transport layer protocols:
+ICMP: Extracts ICMP packet information such as type, code, and checksum.
+TCP: Decodes TCP segments, including source/destination ports, sequence/acknowledgment numbers, and flag statuses (e.g., SYN, ACK, FIN).
+UDP: Decodes UDP segments, including source/destination ports and size.
+Packet Display: The captured packets are printed in a human-readable format with clear indentations for easy comprehension.
+
+Warnings
+Ethical Use: This script is designed for educational purposes. Ensure that you only capture traffic on networks you have explicit permission to monitor.
+Privacy & Legality: Capturing or analyzing network traffic without proper authorization can violate privacy laws and terms of service agreements. Use responsibly.
+Disclaimer
+The author does not condone the use of this tool for unauthorized or illegal activities. The script is intended for educational purposes to help users understand network packet structures and protocols.
+
